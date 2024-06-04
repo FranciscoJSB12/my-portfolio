@@ -20,7 +20,7 @@ const projects = [
     {
         imageSrc: '/images/todo-app.png',
         title: 'Lista de Tareas',
-        description: 'Aplicación Web para llevar una lista de las cosas pendientes por hacer en el día',
+        description: 'Aplicación Web para llevar una lista de las cosas pendientes por hacer en el día.',
         gitHubUrl: 'https://github.com/FranciscoJSB12/TodoApp-react',
         projectUrl: 'https://franciscojsb12.github.io/TodoApp-react/',
         stack: ['HTML', 'CSS', 'Javascript', 'React', 'Vite'],
@@ -29,7 +29,7 @@ const projects = [
     {
         imageSrc: '/images/api.jpg',
         title: 'FranStore REST API',
-        description: 'API REST creada para servir a FranStore, ecommerce desarrollada para la venta de diferentes tipos de productos',
+        description: 'API REST creada para servir a FranStore, ecommerce desarrollada para la venta de diferentes tipos de productos.',
         gitHubUrl: 'https://github.com/FranciscoJSB12/fran-store-api',
         projectUrl: 'https://github.com/FranciscoJSB12/fran-store-api/blob/main/README.md',
         stack: ['Node', 'TypeScript', 'Nestjs', 'TypeORM', 'PostgreSQL', 'Docker'],
@@ -38,11 +38,29 @@ const projects = [
     {
         imageSrc: '/images/api.jpg',
         title: 'Pokedex REST API',
-        description: 'API REST creada para servir almacenar información sobre tus pokemones favoritos',
+        description: 'API REST creada para servir almacenar información sobre tus pokemones favoritos.',
         gitHubUrl: 'https://github.com/FranciscoJSB12/pokedex-api',
         projectUrl: 'https://github.com/FranciscoJSB12/pokedex-api/blob/main/README.md',
         stack: ['Node', 'TypeScript', 'Nestjs', 'TypeORM', 'MongoDB', 'Docker'],
         role: 'Desarrollador Backend'
+    },
+    {
+        imageSrc: '/images/milunchera.jpeg',
+        title: 'Mi Lunchera App',
+        description: 'App móvil destinada a IOS y Android para la venta de comida rápida.',
+        gitHubUrl: 'https://github.com/FranciscoJSB12/react-native-MiLuncheraApp',
+        projectUrl: 'https://github.com/FranciscoJSB12/react-native-MiLuncheraApp/blob/main/README.md',
+        stack: ['TypeScript', 'React Native', 'Expo'],
+        role: 'Desarrollador móvil con React Native'
+    },
+    {
+        imageSrc: '/images/movieapp.png',
+        title: 'Movies App',
+        description: 'App móvil destinada a IOS y Android que se encarga de consultar las últimas películas en cartelera gracias a la API REST de themoviedb.org.',
+        gitHubUrl: 'https://github.com/FranciscoJSB12/react-native-movies-app',
+        projectUrl: 'https://github.com/FranciscoJSB12/react-native-movies-app/blob/main/README.md',
+        stack: ['TypeScript', 'React Native', 'Expo'],
+        role: 'Desarrollador móvil con React Native'
     },
 ];
 

@@ -22,14 +22,14 @@ const ProjectCard = ({
 }: Props) => {
   return (
     <div className='w-full max-w-[300px] bg-[#181818] rounded-lg'>
-      <figure>
+      <figure className='h-[150px] w-full rounded-t-lg'>
         <Image
           className='rounded-t-lg'
           src={imageSrc}
           alt={title}
           width={300}
           height={150}
-          priority
+          style={{ height: 150 }}
         />
       </figure>
       <figcaption className='p-2'>
