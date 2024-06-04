@@ -1,10 +1,10 @@
 'use client';
 import Image from 'next/image';
 import { useState, useTransition } from 'react';
-import TabButton from './TabButton';
+import TabButton from '../Tab/TabButton';
+import TabPill from '../Tab/TabPill';
+import PillList from '../Tab/PillList';
 import skills from '@/constants/skills';
-import TabPill from './TabPill';
-import PillList from './PillList';
 
 enum Tabs {
   skills,
