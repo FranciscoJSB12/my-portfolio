@@ -19,11 +19,14 @@ const HeroSection = () => {
           </span>
         </p>
         <div>
-          <button className='p-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200 hover:bg-slate-800 text-white'>
+          <a
+            className='inline-block p-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200 hover:bg-slate-800 text-white'
+            href='#contact'
+          >
             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
               Contacto
             </span>
-          </button>
+          </a>
         </div>
       </div>
       <div className='col-span-5 place-self-center'>

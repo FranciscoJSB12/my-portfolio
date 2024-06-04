@@ -29,6 +29,7 @@ const ProjectCard = ({
           alt={title}
           width={300}
           height={150}
+          priority
         />
       </figure>
       <figcaption className='p-2'>

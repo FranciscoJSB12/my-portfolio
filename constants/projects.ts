@@ -32,7 +32,7 @@ const projects = [
         description: 'API REST creada para servir a FranStore, ecommerce desarrollada para la venta de diferentes tipos de productos',
         gitHubUrl: 'https://github.com/FranciscoJSB12/fran-store-api',
         projectUrl: 'https://github.com/FranciscoJSB12/fran-store-api/blob/main/README.md',
-        stack: ['Node', 'TypeScript', 'Nestjs', 'TypeORM', 'PostGreSQL', 'Docker'],
+        stack: ['Node', 'TypeScript', 'Nestjs', 'TypeORM', 'PostgreSQL', 'Docker'],
         role: 'Desarrollador Backend'
     },
     {
