@@ -11,7 +11,7 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-lg break-words md:pr-10'>
-          Me dedico a crear de Software como desarrollador Full Stack, pudiendo
+          Me dedico a crear Software como desarrollador Full Stack, pudiendo
           trabajar así en el desarrollo de aplicaciones web y móviles.
           ¿Necesitas crear un producto digital o un profesional para tu equipo?
           ¡Vamos a contactar!

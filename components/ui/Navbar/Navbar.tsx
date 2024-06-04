@@ -20,9 +20,10 @@ const Navbar = () => {
         >
           <Image
             src={'/images/logo.png'}
+            className='rounded-lg border boder-[#ADB7BE]'
             alt='logo of Francisco'
-            width={40}
-            height={40}
+            width={50}
+            height={50}
           />
         </Link>
         <div className='block md:hidden'>

@@ -19,21 +19,22 @@ const AboutSection = () => {
   };
 
   return (
-    <article className='text-white'>
+    <article>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16'>
-        <figure>
+        <figure className='mb-10'>
           <Image
             src={'/images/logo.png'}
             alt='logo of Francisco'
-            width={500}
-            height={500}
+            className='rounded-lg border-2 boder-[#ADB7BE]'
+            width={460}
+            height={460}
           />
         </figure>
         <div>
           <h2 className='text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200'>
             Sobre Mí
           </h2>
-          <p className='text-base md:text-lg'>
+          <p className='text-base md:text-lg text-[#ADB7BE]'>
             Como desarrollador Full stack puedo trabajar cómodamente en el
             Frontend y en el Backend, tengo más de dos años de experiencia
             trabajando en proyectos propios. Otro dato importante es que también
