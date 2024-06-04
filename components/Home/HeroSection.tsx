@@ -11,10 +11,12 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className='text-[#ADB7BE] text-left text-base sm:text-lg mb-6 lg:text-lg break-words md:pr-10'>
-          Me dedico a crear Software como desarrollador Full Stack, pudiendo
-          trabajar así en el desarrollo de aplicaciones web y móviles.
-          ¿Necesitas crear un producto digital o un profesional para tu equipo?
-          ¡Vamos a contactar!
+          Soy desarrollador Full Stack con React y Node, por lo que me dedico a
+          crear aplicaciones web y móviles.&nbsp;
+          <span className='font-bold'>
+            ¿Necesitas crear un producto digital o un profesional para tu
+            equipo?
+          </span>
         </p>
         <div>
           <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200 hover:bg-slate-200 text-black'>
@@ -28,18 +30,13 @@ const HeroSection = () => {
         </div>
       </div>
       <div className='col-span-5 place-self-center'>
-        <figure
-          className='bg-gradient-to-br from-blue-900
-      via-blue-500  to-blue-200 w-[290px] h-[290px] rounded-full flex justify-center items-center'
-        >
-          <div className='rounded-full bg-[#181818] w-[280px] h-[280px]'>
-            <Image
-              src='/images/fran-photo.png'
-              alt="Fran's photo"
-              width={280}
-              height={280}
-            />
-          </div>
+        <figure className='rounded-full bg-[#181818] w-[280px] h-[280px] border-4 border-[#ADB7BE]'>
+          <Image
+            src='/images/fran-photo.png'
+            alt="Fran's photo"
+            width={280}
+            height={280}
+          />
         </figure>
       </div>
     </article>

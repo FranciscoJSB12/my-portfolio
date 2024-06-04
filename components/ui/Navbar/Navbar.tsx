@@ -16,11 +16,11 @@ const Navbar = () => {
       <div className='flex flex-wrap items-center justify-between mx-auto px-4'>
         <Link
           href={'/'}
-          className='text-2xl md:text-5xl text-white font-semibold'
+          className='text-2xl md:text-5xl text-white font-semibold bg-[#181818] rounded-lg'
         >
           <Image
             src={'/images/logo.png'}
-            className='rounded-lg border boder-[#ADB7BE]'
+            className='rounded-lg'
             alt='logo of Francisco'
             width={50}
             height={50}
