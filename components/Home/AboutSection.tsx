@@ -25,23 +25,20 @@ const AboutSection = () => {
           <Image
             src={'/images/logo.png'}
             alt='logo of Francisco'
-            className='rounded-lg border-2 boder-[#ADB7BE]'
-            width={460}
-            height={460}
+            className='rounded-lg border-2 boder-[#ADB7BE] mx-auto md:mx-0'
+            width={400}
+            height={400}
           />
         </figure>
         <div>
-          <h2 className='text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200'>
+          <h2 className='text-left text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-500 to-blue-200'>
             Sobre Mí
           </h2>
-          <p className='text-base md:text-lg text-[#ADB7BE]'>
+          <p className='text-left text-base md:text-lg text-[#ADB7BE]'>
             Como desarrollador Full stack puedo trabajar cómodamente en el
             Frontend y en el Backend, tengo más de dos años de experiencia
             trabajando en proyectos propios. Otro dato importante es que también
-            hablo inglés (nivel C1).&nbsp;
-            <span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-blue-900 via-blue-500 to-blue-200'>
-              ¿Te interesa el stack de tecnologías que manejo?
-            </span>
+            hablo inglés (nivel C1)
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
