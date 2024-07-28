@@ -56,8 +56,8 @@ const AboutSection = () => {
           <p className='text-left text-base md:text-lg text-[#ADB7BE]'>
             Tengo más de dos años de experiencia trabajando en proyectos
             propios, realizando actividades como la creación de interfaces para
-            aplicaciones web con React y móviles con Fluter o React Native
-            priorizando aspectos como la experiencia de usuario y desarrollo
+            aplicaciones web con React y móviles con Fluter o React Native,
+            priorizando aspectos como la experiencia de usuario y diseño
             responsive. Así mismo, he trabajado creando APIs REST,
             Microservicios y GraphQL, empleando tecnologías como Node con
             Express o Nest, Python con Django y Golang. Otro punto importante es
