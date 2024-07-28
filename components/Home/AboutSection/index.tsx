@@ -59,8 +59,9 @@ const AboutSection = () => {
             aplicaciones web con React y móviles con Fluter o React Native
             priorizando aspectos como la experiencia de usuario y desarrollo
             responsive. Así mismo, he trabajado creando APIs REST,
-            Microservicios y GraphQL. Otro punto importante es que hablo inglés,
-            mi nivel actual es C1.
+            Microservicios y GraphQL, empleando tecnologías como Node con
+            Express o Nest, Python con Django y Golang. Otro punto importante es
+            que hablo inglés, mi nivel actual es C1.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
