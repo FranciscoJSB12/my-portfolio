@@ -11,8 +11,9 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className='text-[#ADB7BE] text-left text-base sm:text-lg mb-6 lg:text-lg break-words md:pr-10'>
-          Soy desarrollador Full Stack con React y Node, por lo que me dedico a
-          crear aplicaciones web y móviles.&nbsp;
+          Soy desarrollador Full Stack y que me dedico a crear aplicaciones web
+          y móviles. Durante mi carrera he trabajado tanto en el Frontend como
+          en el Backend por lo que ambos son áreas que manejo cómodamente.&nbsp;
           <span className='font-bold'>
             ¿Necesitas crear un producto digital o un profesional para tu
             equipo?

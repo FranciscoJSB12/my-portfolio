@@ -55,10 +55,12 @@ const AboutSection = () => {
           </h2>
           <p className='text-left text-base md:text-lg text-[#ADB7BE]'>
             Tengo más de dos años de experiencia trabajando en proyectos
-            propios. Otro dato importante es que hablo inglés. Me encanta el
-            desarrollo móvil, conozco muy bien React Native y he desarrollado
-            Apps con Flutter, sin embargo, no me limito a estas tecnologías,
-            también programo páginas web como esta y hago desarrollo backend.
+            propios, realizando actividades como la creación de interfaces para
+            aplicaciones web con React y móviles con Fluter o React Native
+            priorizando aspectos como la experiencia de usuario y desarrollo
+            responsive. Así mismo, he trabajado creando APIs REST,
+            Microservicios y GraphQL. Otro punto importante es que hablo inglés,
+            mi nivel actual es C1.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
