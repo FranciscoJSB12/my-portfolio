@@ -60,8 +60,8 @@ const AboutSection = () => {
             priorizando aspectos como la experiencia de usuario y diseño
             responsive. Así mismo, he trabajado creando APIs REST,
             Microservicios y GraphQL, empleando tecnologías como Node con
-            Express o Nest, Python con Django y Golang. Otro punto importante es
-            que hablo inglés, mi nivel actual es C1.
+            Express o Nest y Python con Django. Otro punto importante es que
+            hablo inglés, mi nivel actual es C1.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
