@@ -1,10 +1,10 @@
-'use client';
-import Image from 'next/image';
-import { useState, useTransition } from 'react';
-import TabButton from '../Tab/TabButton';
-import TabPill from '../Tab/TabPill';
-import PillList from '../Tab/PillList';
-import skills from '@/constants/skills';
+'use client'
+import Image from 'next/image'
+import { useState, useTransition } from 'react'
+import TabButton from '../Tab/TabButton'
+import TabPill from '../Tab/TabPill'
+import PillList from '../Tab/PillList'
+import skills from '@/constants/skills'
 
 enum Tabs {
   skills,
@@ -24,17 +24,17 @@ const TAB_DATA = [
       </PillList>
     ),
   },
-];
+]
 
 const AboutSection = () => {
-  const [tab, setTab] = useState(Tabs.skills);
-  const [isPending, startTransition] = useTransition();
+  const [tab, setTab] = useState(Tabs.skills)
+  const [isPending, startTransition] = useTransition()
 
   const handleTabChange = (id: Tabs) => {
     startTransition(() => {
-      setTab(id);
-    });
-  };
+      setTab(id)
+    })
+  }
 
   return (
     <article id='about'>
@@ -54,14 +54,15 @@ const AboutSection = () => {
             Sobre Mí
           </h2>
           <p className='text-left text-base md:text-lg text-[#ADB7BE]'>
-            Tengo más de dos años de experiencia trabajando en proyectos
-            propios, realizando actividades como la creación de interfaces para
-            aplicaciones web con React y móviles con Fluter o React Native,
-            priorizando aspectos como la experiencia de usuario y diseño
-            responsive. Así mismo, he trabajado creando APIs REST,
-            Microservicios y GraphQL, empleando tecnologías como Node con
-            Express o Nest y Python con Django. Otro punto importante es que
-            hablo inglés, mi nivel actual es C1.
+            Tengo más de tres años de experiencia trabajando en proyectos
+            propios y con empresas profesionalmente, realizando actividades como
+            la creación de interfaces para aplicaciones web con React y Angular.
+            Por otro lado apps móviles, con Fluter o React Native, priorizando
+            aspectos como la experiencia de usuario y diseño responsive. Así
+            mismo, he trabajado creando APIs REST, Microservicios y GraphQL,
+            empleando tecnologías como Node con Express, Nest, C#, APS.NET Core,
+            SQL Server y Entity Framework. Otro punto importante es que hablo
+            inglés, mi nivel actual es C1.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
@@ -77,7 +78,7 @@ const AboutSection = () => {
         </div>
       </div>
     </article>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection
