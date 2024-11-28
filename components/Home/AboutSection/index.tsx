@@ -57,12 +57,11 @@ const AboutSection = () => {
             Tengo más de tres años de experiencia trabajando en proyectos
             propios y con empresas profesionalmente, realizando actividades como
             la creación de interfaces para aplicaciones web con React y Angular.
-            Por otro lado apps móviles, con Fluter o React Native, priorizando
+            Por otro lado aplicaciones móviles, con Flutter y React Native, priorizando
             aspectos como la experiencia de usuario y diseño responsive. Así
-            mismo, he trabajado creando APIs REST, Microservicios y GraphQL,
-            empleando tecnologías como Node con Express, Nest, C#, APS.NET Core,
-            SQL Server y Entity Framework. Otro punto importante es que hablo
-            inglés, mi nivel actual es C1.
+            mismo, he trabajado creando APIs REST y Microservicios,
+            empleando tecnologías como Node, Nest, C#, .NET,
+            SQL Server y Entity Framework.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
